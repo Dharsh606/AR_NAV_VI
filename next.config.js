@@ -10,7 +10,7 @@ const nextConfig = {
   reactStrictMode: true,
   // output: "export", // Temporarily disabled
   trailingSlash: true,
-  distDir: "out",
+  // distDir: "out", // Use default .next directory
 
   images: {
     domains: ["maps.googleapis.com", "lh3.googleusercontent.com"],
